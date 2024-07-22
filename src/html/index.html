@@ -7,29 +7,29 @@
     <title>Cyber Punk Landing Page</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="shortcut icon" href="../img/character_site.png" type="image/x-icon">
+    <script src="../javascript/script.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav class="botoes">
-            <a href="../html/index.html"><button>Home</button></a>
-            <a href="../html/pagina2.html"><button>Oque é Cyber Punk</button></a>
-            <a href="../html/pagina3.html"><button>Características Principais</button></a>
-            <a href="../html/pagina4.html"><button>Junte-se à Revolução</button></a>
+            <button id="text1" onclick="home()">Home</button>
+            <button id="text2" onclick="page2()">Oque é Cyber Punk</button>
+            <button id="text3" onclick="page3()">Características Principais</button>
+            <button id="text4" onclick="page4()">Junte-se à Revolução</button>
         </nav>
 
     </header>
     <main>
         <picture>
             <img class="baner" src="../img/baner-G.jpg" alt="baner fundo">
-            
         </picture>
         <article >
             <h1>Cyberpunk</h1>
-            <h3>Um Mergulho no Futuro Distópico</h3>
-            <p>Imagine um futuro onde a alta tecnologia se mistura com o colapso social, onde mega corporações controlam
+            <h3 id="title-msg">Um Mergulho no Futuro Distópico</h3>
+            <p id="msg">Imagine um futuro onde a alta tecnologia se mistura com o colapso social, onde mega corporações controlam
                 tudo e a linha entre o homem e a máquina é tênue.Bem-vindo ao mundo Cyberpunk.</p>
         </article>
     </main>

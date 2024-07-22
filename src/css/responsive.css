@@ -28,7 +28,10 @@
 }
 
 @media (min-width:321px) and (max-width:480px) {
+    .botoes {
+        gap: 0.5em;
 
+    }
 
     button {
         font-size: 0.8em;
@@ -54,7 +57,10 @@
 
 @media (min-width:481px) and (max-width:680px) {
 
+    .botoes {
+        gap: 1em;
 
+    }
     button {
         font-size: 0.8em;
         width: 9em;
@@ -78,7 +84,10 @@
     }
 }
 @media (min-width:681px) and (max-width:820px) {
+    .botoes {
+        gap: 1em;
 
+    }
     button {
         font-size: 1em;
         width: 9em;
@@ -88,17 +97,48 @@
     main {
         grid-template-columns: none;
         grid-row: 1fr 1fr;
-        height: 500px;
+        
     }
 
     article {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     footer {
-        font-size: 1em;
+        font-size: 1.2em;
         width: 90%;
         box-shadow: 0px -10px 50px rgba(250, 240, 38, 0.742);
     }
 }
+@media (min-width:821px) and (max-width:1024px) {
+    
+    button {
+        font-size: 1em;
+        width: 9em;
+        height: 1.5em;
+    }
+
+    main {
+        grid-template-columns: none;
+        grid-row: 1fr 1fr;
+        
+    }
+
+    article {
+        font-size: 1.2em;
+    }
+
+    footer {
+        font-size: 1.2em;
+        width: 90%;
+        box-shadow: 0px -10px 50px rgba(250, 240, 38, 0.742);
+    }
+}
+@media (min-width:1024px) and (max-width:1200px) {
+    
+    footer {
+        width: 90%;
+    }
+}
+
 
